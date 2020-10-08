@@ -1,0 +1,33 @@
+.video-preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.thumbnail{
+    width: 55%;
+}
+
+.video-details{
+    width: 42%;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+
+
+
+.circular-progress-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-none {
+    display: none;
+}

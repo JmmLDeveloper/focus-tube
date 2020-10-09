@@ -1,6 +1,8 @@
 
 
-const API_KEY = 'AIzaSyABQHoNJGAJ5iPAG4sTAp5RvlNEnxionIE'
+const API_KEY = process.env['REACT_APP_YOUTUBE_API_KEY'] || ''
+
+console.log(process.env,API_KEY)
 
 interface SearchItem {
   id: {
